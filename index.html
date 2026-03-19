@@ -1,12 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="4P6VHWznl9nozWS8EC2yE0gO9aueX_6pK5wD20lneWk" />
-    <title>Vaveylax Studio</title>
+    
+    <title>Vaveylax Studio | Goalrift</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Koyu lacivert/yeşil gradient arka plan */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 85%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .studio-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #a8b2d1;
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 3rem;
+            margin: 0 0 15px 0;
+            background: -webkit-linear-gradient(#00FF87, #60EFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            color: #ccd6f6;
+            line-height: 1.6;
+            margin-bottom: 35px;
+            font-size: 1.05rem;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .btn-primary {
+            display: inline-block;
+            width: 80%;
+            padding: 14px 24px;
+            background-color: #00FF87;
+            color: #0f2027;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 255, 135, 0.3);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 255, 135, 0.5);
+        }
+        .btn-secondary {
+            display: inline-block;
+            width: 80%;
+            padding: 12px 24px;
+            border: 2px solid #a8b2d1;
+            color: #a8b2d1;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #a8b2d1;
+            color: #0f2027;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+    </style>
 </head>
 <body>
-    <h1>Vaveylax Studio'ya Hoş Geldiniz</h1>
-    <p>Mobil oyun ve uygulama geliştirme stüdyosu.</p>
-    <a href="goalrift-privacy.html">Gizlilik Politikası (Privacy Policy)</a>
+    <div class="container">
+        <div class="studio-name">Vaveylax Studio</div>
+        <h1>Goalrift</h1>
+        <p>Aksiyon dolu, yeni nesil 2D arcade futbol deneyimi. Sahaya çıkın ve efsanenizi yazın!</p>
+        
+        <div class="btn-container">
+            <a href="https://play.google.com/store/apps/details?id=com.goalrift.football.app&utm_source=emea_Med" target="_blank" class="btn-primary">Google Play'den İndir</a>
+            
+            <a href="goalrift-privacy.html" class="btn-secondary">Gizlilik Politikası (Privacy Policy)</a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        &copy; 2026 Vaveylax Studio. Tüm hakları saklıdır.
+    </div>
 </body>
 </html>
